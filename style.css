@@ -52,10 +52,6 @@ h3:hover {
   cursor: pointer;
 }
 
-.card > h3:hover {
-  box-shadow: 20px 20px black;
-}
-
 section {
   font-weight: 300;
   opacity: 0.5;
