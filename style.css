@@ -23,11 +23,12 @@ body {
 }
 
 .card {
-  padding: 30px;
+  padding: 25px;
   background-color: white;
   border-radius: 5%;
   border: black solid 1px;
   box-shadow: 10px 10px black;
+  box-sizing: border-box;
 }
 
 .learning {
@@ -39,7 +40,6 @@ body {
 
 .published {
   padding: 1.25rem 0 1.5rem;
-  text-indent: 0em;
 }
 
 h3 {
@@ -55,7 +55,7 @@ h3:hover {
 section {
   font-weight: 300;
   opacity: 0.5;
-  line-height: 22px;
+  line-height: 1.3rem;
   padding-bottom: 1.25em;
 }
 
