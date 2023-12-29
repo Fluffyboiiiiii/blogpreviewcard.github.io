@@ -1,0 +1,80 @@
+:root {
+  --backgroundcolor: #f5d04e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Figtree;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--backgroundcolor);
+}
+
+#img1 {
+  border-radius: 5%;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  padding: 30px;
+  background-color: white;
+  border-radius: 5%;
+  border: black solid 1px;
+  box-shadow: 10px 10px black;
+}
+
+.learning {
+  max-width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: var(--backgroundcolor);
+  border-radius: 10%;
+}
+
+.published {
+  padding: 1.25rem 0 1.5rem;
+  text-indent: 0em;
+}
+
+h3 {
+  max-width: fit-content;
+  padding-bottom: 1em;
+}
+
+h3:hover {
+  color: var(--backgroundcolor);
+  cursor: pointer;
+}
+
+.card > h3:hover {
+  box-shadow: 20px 20px black;
+}
+
+section {
+  font-weight: 300;
+  opacity: 0.5;
+  line-height: 22px;
+  padding-bottom: 1.25em;
+}
+
+footer {
+  display: flex;
+}
+
+footer p {
+  display: flex;
+  margin-left: 1rem;
+  align-items: center;
+  font-weight: 600;
+}
+
+#img2 {
+  width: 32px;
+  height: 32px;
+}
